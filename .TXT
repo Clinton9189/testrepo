@@ -1,0 +1,19 @@
+firstpython.py
+
+<div class="tw-flex tw-flex-col tw-gap-y-5">
+<div x-data="textInput" x-on:gp-input-error="showHideInputError($event)" data-view-component="true" class="tw-px-0.5">
+<div id="_container" x-ref="container" data-view-component="true" class="gecko-input-group tw-ring-gray-200 dark:tw-ring-moon-600">
+<input name="user[email]" id="user_email" label="Email" type="email" data-view-component="true" class="gecko-input !tw-h-12 tw-text-base md:tw-text-sm">
+</div>
+<div x-ref="error" data-view-component="true" class="tw-text-xs tw-leading-4 tw-text-gray-500 dark:tw-text-moon-200 tw-font-semibold tw-mt-2 !tw-font-semibold !tw-text-danger-500 tw-hidden">
+</div>
+</div>
+<button type="submit" data-view-component="true" class="tw-bg-primary-500 dark:tw-bg-primary-400 tw-shadow-primaryShadow !tw-mb-1 hover:tw-bg-primary-600 dark:hover:tw-bg-primary-300 hover:tw-shadow-primaryHover active:!tw-shadow-primaryActive tw-transition-all tw-duration-150 active:tw-translate-y-2 tw-items-center tw-justify-center tw-font-semibold tw-text-inline tw-rounded-lg tw-select-none focus:tw-outline-none tw-px-6 tw-py-3.5 tw-flex tw-w-full">
+<div data-view-component="true" class="tw-text-white hover:tw-text-white focus:tw-text-white dark:tw-text-primary-900 dark:hover:tw-text-primary-900 dark:focus:tw-text-primary-900 tw-font-semibold tw-text-sm tw-leading-5">
+Resend confirmation instructions
+</div></button>
+</div>
+<input type="hidden" name="authenticity_token" value="n7CSBeHhg3sWdhSncD5VFvTuJxT9Q4Ll_EsCGOmkgiyno9LFj5WCaHxM7NXM7oMVcJuu_DgvVoKEii8DgPOODw"></form>
+</div>
+</div>
+</div></div></div>
